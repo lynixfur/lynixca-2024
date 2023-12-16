@@ -1,0 +1,1 @@
+<p class="p-5 text-center w-full"><strong class="text-4xl mb-5 text-cyan-500">TAIL Infrastructure WIP</strong><br/>This feature is not ready yet, please wait until Jan 1st 2024!</p>
