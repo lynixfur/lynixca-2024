@@ -1,0 +1,17 @@
+<script>
+
+</script>
+
+<div class="my-20 ">
+    <h1 class="text-6xl font-semibold text-neutral-100 pb-2">
+        Furnal Equinox 2024
+    </h1>
+    <p class="text-xl mb-5">Toronto, Canada - Mar 14 to Mar 18, 2024</p>
+    <div class="min-h-[400px] w-full rounded-2xl bg-neutral-900">
+    </div>
+
+    <!-- More Events -->
+    <h1 class="mt-10 text-6xl font-semibold text-neutral-100 pb-2">
+        Future Events
+    </h1>
+</div>

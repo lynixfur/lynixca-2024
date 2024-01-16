@@ -3,14 +3,7 @@
 	import Navbar from "$lib/Navbar.svelte";
 </script>
 <main class="flex justify-center py-10">
-	<div class="background-container">
-		<div class="background"></div>
-	</div>
-	<div class="w-3/4 z-50">
-		<Navbar />
-		<div class="bg-cyan-900 py-2 px-5 max-w-[800px] rounded-full font-semibold -ml-1">
-			Lynix is going to toronto! Make sure to reserve your stickers for the Cybersecurity Meetup!
-		</div>
+	<div class="">
 		<div class="grid gap-4 grid-cols-1 md:grid-cols-3">
 			<div class="my-16 flex flex-col items-start grow md:col-span-2">
 				<div class="flex items-center mb-5 space-x-3">
@@ -26,7 +19,7 @@
 					I'm a 20 year old VR enthusiast, Developer, Cybersecurity Student, and Furry, I'm seeking opportunities to
 					change the world for better for everyone with IT.
 					<br/><br/>
-					<span class="text-sm text-cyan-600">Infrastructure Operational</span>
+					<span class="text-sm text-cyan-600 hidden">%INFA_STATUS%</span>
 				</p>
 				<div class="grid gap-5 grid-cols-5 mt-8">
 					<a href="https://discord.com" aria-label="Discord">
