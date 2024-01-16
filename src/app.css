@@ -9,8 +9,37 @@
 
 body {
 	font-family: Cyber;
-    @apply bg-gray-950;
+    @apply bg-neutral-950;
 }
+
+/* Background */
+.background-container {
+    /*@apply bg-neutral-950;*/
+    @apply fixed top-0 left-0 bottom-0 right-0 flex items-center justify-center;
+}
+
+/*.background {
+    position: absolute;
+    bottom: -55rem;
+    : linear-gradient(#ffffff00, #ffffff50);
+    border-radius:50%;
+    background: linear-gradient(rgba(38, 38, 38, 0), rgba(38, 38, 38, 0.3), rgba(38, 38, 38, 0.5), rgba(38, 38, 38, 0.8), #262626);
+    filter: blur(50px);
+    overflow: hidden;
+    @apply w-[90rem] h-[90rem] rounded-full;
+}*/
+
+.background {
+    position: absolute;
+    bottom: -55rem;
+    @apply w-[90rem] h-[90rem] bg-gradient-to-t from-neutral-900 to-transparent rounded-full;
+    background-attachment:fixed; 
+}
+
+.blur{
+    overflow:hidden;
+    filter: blur(8px);
+  }
 
 /* Scrollbar */
 

@@ -5,14 +5,18 @@
 	};
 </script>
 
-<header class="bg-darker border-b border-card shadow-md text-white p-3 flex items-center space-x-10 px-10 py-3">
-	<a href="/"><h1 style="text-shadow: 5px 5px #075985;" class="flex items-center text-4xl font-semibold font-cyber tracking-widest text-cyan-400 uppercase rounded-lg focus:outline-none focus:shadow-outline">LYNIX.CA</h1></a>
-	<nav class="flex itemsc-enter space-x-5">
-		<a href="/projects" class="font-semibold text-lg">Projects</a>
-		<a href="/blog" class="font-semibold text-lg">Blog</a>
-		<a href="/fursona" class="font-semibold text-lg">Fursona</a>
-		<a href="/about" class="font-semibold text-lg">About</a>
-		<a href="/contact" class="font-semibold text-lg">Contact</a>
+<header class=" text-white flex items-center py-14">
+	<nav class="flex items-center space-x-8">
+		<a href="/" class="font-semibold text-lg">
+			<img src="/lynix.png" alt="lynix" class="h-10 w-10 mb-1.5" />
+		</a>
+		<a href="/projects" class="font-semibold text-lg hover:text-cyan-600 transition-colors">Projects</a>
+		<a href="/blog" class="font-semibold text-lg hover:text-cyan-600 transition-colors">Blog</a>
+		<a href="/fursona" class="font-semibold text-lg hover:text-cyan-600 transition-colors flex items-center">Events
+			<i class="fa fa-circle text-xs ml-2 text-cyan-700 animate-pulse" aria-hidden="true"></i>
+		</a>
+		<a href="/about" class="font-semibold text-lg hover:text-cyan-600 transition-colors">About</a>
+		<a href="/contact" class="font-semibold text-lg hover:text-cyan-600 transition-colors">Contact</a>
 	</nav>
 	<!-- TODO: Work on mobile interface -->
 	<button class="nav-button hidden" on:click={toggleNav} aria-label="Toggle Navigation">
