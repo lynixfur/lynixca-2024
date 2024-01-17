@@ -2,11 +2,11 @@
 	import Banner from "$lib/Banner.svelte";
 	import Navbar from "$lib/Navbar.svelte";
 </script>
-<main class="flex justify-center py-10">
+<main class="flex py-10">
 	<div class="">
 		<div class="grid gap-4 grid-cols-1 md:grid-cols-3">
 			<div class="my-16 flex flex-col items-start grow md:col-span-2">
-				<div class="flex items-center mb-5 space-x-3">
+				<div class="block md:flex items-center mb-5 space-x-0 md:space-x-3">
 					<img src="lynix2.png" class="w-20 mb-1.5" alt="lynix"/>
 					<h1 class="text-6xl font-semibold text-neutral-100">
 						Hi, I'm Lynix!

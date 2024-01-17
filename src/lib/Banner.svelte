@@ -24,7 +24,7 @@
   </script>
   
   {#if daysUntilToronto > 0}
-  <div class="bg-cyan-900 py-2 px-5 max-w-[800px] rounded-full font-semibold -ml-1">
+  <div class="bg-cyan-900 py-2 px-5 max-w-[800px] md:rounded-full rounded-xl font-semibold -ml-1 md:mt-0 mt-10">
 	  Lynix is going to Toronto in {daysUntilToronto} days! Make sure to reserve your stickers for the meetup!
   </div>
   {/if}

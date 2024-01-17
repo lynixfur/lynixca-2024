@@ -5,7 +5,7 @@
 	};
 </script>
 
-<header class=" text-white flex items-center py-14">
+<header class=" text-white items-center py-14 md:flex hidden">
 	<nav class="flex items-center space-x-8">
 		<a href="/" class="font-semibold text-lg">
 			<img src="/lynix.png" alt="lynix" class="h-10 w-10 mb-1.5" />

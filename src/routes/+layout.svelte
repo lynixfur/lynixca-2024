@@ -9,15 +9,15 @@
 <div class="text-white">
 	<div class="min-h-screen flex justify-center">
 		{#if $page.url?.pathname == "/"}
-		<div class="background-container">
+		<div class="background-container w-full">
 		  	<div class="background"></div>
 
 		  	<!-- CN Tower -->
 			<p class="hidden">CN Tower by Fatemah Manji from https://thenounproject.com/browse/icons/term/cn-tower/ (CC BY 3.0)</p>
-			<img src="/cn-tower.svg" class="z-20 fixed bottom-0 right-10 w-[700px]" alt="Toronto CN Tower"/>
+			<img src="/cn-tower.svg" class="cn-tower" alt="Toronto CN Tower"/>
 		</div>
 	  	{/if}
-		<div class="z-50 w-3/4 ">
+		<div class="z-50 md:w-3/4 w-full md:px-0 px-7">
 			<Navbar />
 			<Banner />
 			<slot />

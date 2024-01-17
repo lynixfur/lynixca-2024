@@ -15,7 +15,7 @@ body {
 /* Background */
 .background-container {
     /*@apply bg-neutral-950;*/
-    @apply fixed top-0 left-0 bottom-0 right-0 flex items-center justify-center;
+    @apply fixed top-0 left-0 bottom-0 right-0 hidden md:flex items-center justify-center;
 }
 
 /*.background {
@@ -31,9 +31,18 @@ body {
 
 .background {
     position: absolute;
-    bottom: -55rem;
-    @apply w-[90rem] h-[90rem] bg-gradient-to-t from-neutral-900 to-transparent rounded-full;
+    width: 165vh;
+    aspect-ratio: 1/1;
+    bottom: -105vh;
+    @apply rounded-full bg-gradient-to-t from-neutral-900 to-transparent;
     background-attachment:fixed; 
+}
+
+.cn-tower {
+    position: absolute;
+    width: 80vh;
+    bottom: 0;
+    right: 6vw;
 }
 
 .blur{
