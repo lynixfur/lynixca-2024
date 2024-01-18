@@ -3,7 +3,7 @@
   
 	let daysUntilToronto = 0;
   
-	const targetDate = new Date('March 14, 2024 00:00:00').getTime();
+	const targetDate = new Date('March 13, 2024 00:00:00').getTime();
   
 	function updateCountdown() {
 	  const currentDate = new Date().getTime();
