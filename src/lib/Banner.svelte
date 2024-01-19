@@ -27,5 +27,9 @@
   <div class="bg-cyan-900 py-2 px-5 max-w-[800px] md:rounded-full rounded-xl font-semibold -ml-1 md:mt-0 mt-10">
 	  Lynix is going to Toronto in {daysUntilToronto} days! Make sure to reserve your stickers for the meetup!
   </div>
+
+  <div class="bg-red-900 py-2 px-5 max-w-[800px] md:rounded-full rounded-xl font-semibold -ml-1 md:mt-5 mt-10">
+	Attention! Sticker production has stopped due to a event plan change, stickers are now strictly reserved for FE 2024 Attendees!
+  </div>
   {/if}
   

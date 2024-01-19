@@ -12,7 +12,7 @@
 		</a>
 		<a href="/projects" class="font-semibold text-lg hover:text-cyan-600 transition-colors">Projects</a>
 		<a href="/blog" class="font-semibold text-lg hover:text-cyan-600 transition-colors">Blog</a>
-		<a href="/fursona" class="font-semibold text-lg hover:text-cyan-600 transition-colors flex items-center">Events
+		<a href="/events" class="font-semibold text-lg hover:text-cyan-600 transition-colors flex items-center">Events
 			<i class="fa fa-circle text-xs ml-2 text-cyan-700 animate-pulse" aria-hidden="true"></i>
 		</a>
 		<a href="/about" class="font-semibold text-lg hover:text-cyan-600 transition-colors">About</a>
